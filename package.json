@@ -1,7 +1,7 @@
 {
   "name": "minik",
   "version": "0.1.0",
-  "description": "",
+  "description": "mini koa only implement middleware system",
   "main": "index.js",
   "scripts": {
     "test": "babel-node --stage 0 __test__/run"
