@@ -2,9 +2,12 @@
   "name": "minik",
   "version": "0.1.0",
   "description": "mini koa only implement middleware system",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "babel-node --stage 0 __test__/run"
+    "test": "babel-node --stage 0 __test__/run",
+    "clean": "rimraf lib",
+    "build": "babel src --out-dir lib",
+    "prepublish": "npm run clean && npm run build"
   },
   "repository": {
     "type": "git",
@@ -21,5 +24,9 @@
   },
   "dependencies": {
     "koa-compose": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel": "^5.8.29",
+    "rimraf": "^2.4.3"
   }
 }
