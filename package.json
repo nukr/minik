@@ -1,0 +1,25 @@
+{
+  "name": "minik",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "babel-node --stage 0 __test__/run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nukr/minik.git"
+  },
+  "author": "nukr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nukr/minik/issues"
+  },
+  "homepage": "https://github.com/nukr/minik#readme",
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "dependencies": {
+    "koa-compose": "^3.0.0"
+  }
+}
