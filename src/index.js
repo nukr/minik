@@ -33,6 +33,8 @@ export default class Application extends Emitter {
     context.root = root
     context.args = args
     context.info = info
+    context.rootValue = info.rootValue
+    context.fieldName = info.fieldName
     return context
   }
 }
