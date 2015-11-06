@@ -1,6 +1,6 @@
 {
   "name": "minik",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "mini koa only implement middleware system",
   "main": "lib/index.js",
   "scripts": {
