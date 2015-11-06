@@ -28,12 +28,11 @@ export default class Application extends Emitter {
     }
   }
 
-  createContext (root, args, info, ast) {
+  createContext (root, args, info) {
     let context = {}
     context.root = root
     context.args = args
     context.info = info
-    context.ast = ast
     return context
   }
 }
